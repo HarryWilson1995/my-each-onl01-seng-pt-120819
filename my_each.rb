@@ -1,4 +1,4 @@
-list = ["ab", "cd", "ef"]
+# list = ["ab", "cd", "ef"]
 
 def my_each(array)
   i = 0
@@ -7,6 +7,7 @@ def my_each(array)
     yield(array[i])
     i = i + 1
   end
+  array 
 end
 
 my_each(list) {|i| i}
