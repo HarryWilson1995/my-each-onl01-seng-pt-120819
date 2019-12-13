@@ -9,4 +9,4 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| return i}
+my_each(list) {|i| return array}
