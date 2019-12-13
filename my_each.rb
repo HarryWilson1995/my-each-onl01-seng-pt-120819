@@ -1,4 +1,4 @@
-# list = ["ab", "cd", "ef"]
+list = ["ab", "cd", "ef"]
 
 def my_each(array)
   i = 0
